@@ -103,6 +103,7 @@ export const WebDummyData = [
     instagram: "https://www.instagram.com/manishmh",
     linkedin: "https://www.linkedin.com/in/manish-k-46101a139/",
     github: "https://github.com/manishmh",
+    title: "Developer"
   },
   {
     src: "https://res.cloudinary.com/dlkd1pzli/image/upload/v1704709521/kiifest/carousel/vr-girl_ofg80o.png",
@@ -110,6 +111,7 @@ export const WebDummyData = [
     instagram: "https://www.instagram.com/manishmh",
     linkedin: "https://www.linkedin.com/in/manish-k-46101a139/",
     github: "https://github.com/manishmh",
+    title: "Developer"
   },
   {
     src: "https://res.cloudinary.com/dlkd1pzli/image/upload/v1704709521/kiifest/carousel/vr-girl_ofg80o.png",
@@ -117,6 +119,7 @@ export const WebDummyData = [
     instagram: "https://www.instagram.com/manishmh",
     linkedin: "https://www.linkedin.com/in/manish-k-46101a139/",
     github: "https://github.com/manishmh",
+    title: "Developer"
   },
   {
     src: "https://res.cloudinary.com/dlkd1pzli/image/upload/v1704709521/kiifest/carousel/vr-girl_ofg80o.png",
@@ -124,12 +127,14 @@ export const WebDummyData = [
     instagram: "https://www.instagram.com/manishmh",
     linkedin: "https://www.linkedin.com/in/manish-k-46101a139/",
     github: "https://github.com/manishmh",
+    title: "Developer"
   },
   {
-    src: "https://res.cloudinary.com/dlkd1pzli/image/upload/v1704709521/kiifest/carousel/vr-girl_ofg80o.png",
-    memberName: "member name",
+    src: "/dp.jpg",
+    memberName: "Manish Kumar ",
     instagram: "https://www.instagram.com/manishmh",
     linkedin: "https://www.linkedin.com/in/manish-k-46101a139/",
     github: "https://github.com/manishmh",
+    title: "Developer"
   },
 ]

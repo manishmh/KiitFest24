@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import BgAudio from "./BgAudio";
-
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {
@@ -59,24 +58,21 @@ const Navbar = () => {
                 ? { delay: 3.2, duration: 1 }
                 : { type: "spring", duration: 0.6 }
             }
-            className="text-lg font-light font-roboto  lg:text-[24px] hidden md:flex space-x-8"
+            className="text-lg font-roboto  lg:text-[20px] hidden md:flex space-x-8"
           >
-            <Link href={"/"} className="hover:scale-[1.14] pl-16 duration-300">
+            <Link href={"/"} className={`hover:scale-[1.14] pl-16 duration-300 ${pathname === "/" && "text-blue-500"}`}>
               Home
             </Link>
-            <Link href={"/events"} className="hover:scale-[1.14] duration-300">
+            <Link href={"/events"} className={`hover:scale-[1.14] duration-300 ${pathname === "/events" && "text-blue-500"}`}>
               Events
             </Link>
-            <Link href={"/about"} className="hover:scale-[1.14] duration-300">
+            <Link href={"/about"} className={`hover:scale-[1.14] duration-300 ${pathname === "/about" && "text-blue-500"}`}>
               About
             </Link>
-            <Link href={"/members"} className="hover:scale-[1.14] duration-300">
+            <Link href={"/members"} className={`hover:scale-[1.14] duration-300 ${pathname === "/members" && "text-blue-500"}`}>
               Members
             </Link>
-            <Link
-              href={"/contactus"}
-              className="hover:scale-[1.14] duration-300"
-            >
+            <Link href={"/contactus"} className={`hover:scale-[1.14] duration-300 ${pathname === "/contactus" && "text-blue-500"}`}>
               Contact us
             </Link>
           </motion.div>

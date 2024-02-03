@@ -29,7 +29,7 @@ const EventsData = ({ events }) => {
             search === "CULTURAL"
               ? "border-2 border-[#573FEA] bg-[#DFDAFF] text-[#573FEA]"
               : "border border-[#B5B1B1] bg-white"
-          } cursor-pointer rounded-[72px]  px-3 lg:px-6 py-2 mx-4 lg:py-3 `}
+          } cursor-pointer rounded-[72px] px-3 lg:px-6 py-2 mx-4 lg:py-3 `}
           scroll={false}
         >
           Cultural, Literary & Art
