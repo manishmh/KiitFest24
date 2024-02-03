@@ -39,7 +39,7 @@ const Navbar = () => {
       >
         <div
           className={`flex max-w-[1900px]    mx-auto justify-between w-full  p-4  lg:px-20 ${
-            pathname == "/" ? "lg:py-6" : "py-3"
+            pathname == "/" ? "lg:py-2" : "py-2"
           } rounded-sm items-center text-white`}
         >
           <Image
@@ -76,7 +76,7 @@ const Navbar = () => {
               Contact us
             </Link>
           </motion.div>
-          <div className="flex items-center  space-x-2">
+          <div className="flex items-center space-x-2">
             <Link href={"/auth/login"}>
               <button className="  text-sm lg:text-[17px] bg-gradient-to-b from-[#174ACE] rounded-full border-white border-[2px] to-[#16B2DB] px-3 py-[2px]  lg:px-9 lg:py-2">
                 SIGN IN
